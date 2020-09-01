@@ -18,5 +18,16 @@ public class BitwiseLogicalOperators {
         System.out.println("d = a & b = " + binary[d]);
         System.out.println("e = a ^ b = " + binary[e]);
         System.out.println("f = (~a & b) | (a & ~b) = " +binary[f]);
+
+        System.out.println("\nShifting operators:");
+        int i;
+        i=-4;
+        System.out.println("i = " +i);
+        i=i>>1; //signed right shift operator
+        System.out.println("After signed right shift by 1, i = " +i);
+        i=i<<1; //signed right shift operator
+        System.out.println("After signed left shift by 1, i = " +i);
+        i=i>>>30; //unsigned right shift operator, fills zero irrespective of sign
+        System.out.println("After unsigned right shift by 30, i = " +i);
     }
 }
